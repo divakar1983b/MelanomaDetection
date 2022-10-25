@@ -1,10 +1,6 @@
 # Melanoma Detection Model 
 > Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.  
 > 
-
-> 
->
-
 *![Book logo](/pricing1.jpg)
 
 ## Table of Contents
@@ -19,13 +15,12 @@
 ## Objective
 - To build a CNN based model which can accurately detect melanoma
 - Model shall be used by dermatologists to alert them about the presence of melanoma and reduce the manual effort needed in diagnosis.
-- 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Data_Exploration
--  Variables
-    -   The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
-## The data set contains the following diseases:
+-  The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
+
+### The data set contains the following diseases:
 * Actinic keratosis
 * Basal cell carcinoma
 * Dermatofibroma
