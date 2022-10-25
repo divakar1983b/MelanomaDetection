@@ -49,7 +49,7 @@
 - squamous cell carcinoma 	    : 7.92
 - vascular lesion 		        : 6.42
 
-<img src="class.PNG" width="600" height="600">
+<img src="class.PNG" width="300" height="300">
 
 ## Model_Estimate
 - Initially the model is fit with training dataset (80%,20% - split) without Dropout layers and Image Augmentation.
