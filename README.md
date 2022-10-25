@@ -40,30 +40,7 @@
 * Vascular lesion
 <img src="vascular.jpg" width="200" height="200">
 
-*![Book logo](/cont1.PNG)
-*![Book logo](/cont2.PNG)
-*![Book logo](/cont3.PNG)
--   Categorical Variables
-    -   Countplot of categorical variable gives us insight of some of the insignificant categorical variables such as "BsmtHalfBath, Utlities, Street, RoofMatl, Landslope, LandContour, Heating, GarageQual, GarageCond, Functional, Electrical, Condition2, Condition1, CentralAir, BsmtFinType2,BsmtCond,KitchenAbvGr, PavedDrive, ExternalCond" which can be dropped.
-*![Book logo](/cat1.PNG)
-*![Book logo](/cat2.PNG)
-*![Book logo](/cat3.PNG)
-*![Book logo](/cat4.PNG)
-*![Book logo](/cat5.PNG)
-*![Book logo](/cat6.PNG)
-*![Book logo](/cat7.PNG)
-
-*![Book logo](/zone1.PNG)
-*![Book logo](/zone2.PNG)
--  Outliers   
-    -   The Box plot distribution of "Saleprice" based on houses sold in different zones and Subclasses reveals the outliers in the data which are removed for better model prediction.
-
-*![Book logo](/mssub1.PNG)
-*![Book logo](/mssub2.PNG)
-*![Book logo](/mssub3.PNG) 
-
-
-## Multicolinearity
+## Data Imbalance
 - To understand the multicollinearity amoung the different features, we shall plot the heat map between the variables, as well as use the variance_inflation_factor from statsmodels
 
 *![Book logo](/corr1.PNG)
