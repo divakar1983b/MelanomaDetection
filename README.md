@@ -1,17 +1,7 @@
 # Melanoma Detection Model 
-> Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.  
-> The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). 
+> Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.  
+> 
 
-## The data set contains the following diseases:
-* Actinic keratosis
-* Basal cell carcinoma
-* Dermatofibroma
-* Melanoma
-* Nevus
-* Pigmented benign keratosis
-* Seborrheic keratosis
-* Squamous cell carcinoma
-* Vascular lesion
 > 
 >
 
@@ -34,13 +24,18 @@
 
 ## Data_Exploration
 -  Variables
-    -   The dataset "train.csv" has 80 features with 1460 records for predicting "SalePrice" of an Australian house. 
-    -   "SalePrice" is our target variable for which the regression model needs to be built
-    -   On going through the data it is found that some of the variables such as "Alley, PoolQC, Fence, MiscFeatures" are having most of the values as NAN. Hence can be dropped. 
-    -   Variables such as "YearBuilt, YearRemodAdd, GarageYrBuilt" are transformed to respective ages from time of sale using formulas such as  "YrSold-YrBuilt, YrSold-YearRemodAdd, YrSold-GarageYrBuilt" resp. and the year variables are dropped. 
-    -   Unimportant variables such as "ID" are also dropped
--   Continuous Variables
-    -   Histogram of continuous variable gives us insight of some of the insignificant variables such as "ScreenPorch, PoolArea, MiscVal, MasVnrArea, LowQualFinSF, EnclosedPorch, BsmtFinSF2, 3SsnPorch" which can be dropped
+    -   The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC).
+## The data set contains the following diseases:
+* Actinic keratosis
+* Basal cell carcinoma
+* Dermatofibroma
+* Melanoma
+* Nevus
+* Pigmented benign keratosis
+* Seborrheic keratosis
+* Squamous cell carcinoma
+* Vascular lesion
+
 *![Book logo](/cont1.PNG)
 *![Book logo](/cont2.PNG)
 *![Book logo](/cont3.PNG)
@@ -53,15 +48,6 @@
 *![Book logo](/cat5.PNG)
 *![Book logo](/cat6.PNG)
 *![Book logo](/cat7.PNG)
--  Zones & Subclasses
-    -   On going through the data_description and data we can understand that the houses are majorly categorized according to zones. 
-    -   "MSZoning" variable contains the zones of each house as "RL, RM, RH, FV, C(all)". 
-    -   The distribution of the house sold reveals that almost "79% of house sold are from "RL" Zone, followed by "15%" in "RM" Zone and 4% in "FV"zone and minor % in RH and C(all) zones.
-    -   The Houses sold in each zone can be further sub classified into 1-Story newer, 1-Story older, 2-Story newer, 2-Story older...etc which is captured in variable "MSSubClass" with values 20 to 190 each representing a particular class.
-    -   The distribution of House sold in each zone based on sub class reveals following: 
-    -   In RL Zone: 44% of the houses are 1-Story newer, 24% are 2-Story newer, 8% are 1.5 Story finished and minor % in other classes
-    -   In RM Zone: 23% are 1.5 Storey finished, 15% of old 1Storey and 2 Storey, 10% of Planned unit and minor % in other classes
-    -   In FV Zone: 38% are 2 Storey Newer, 34% Planned unit, 20% 1Storey newer and 8% 1Storey PUD
 
 *![Book logo](/zone1.PNG)
 *![Book logo](/zone2.PNG)
