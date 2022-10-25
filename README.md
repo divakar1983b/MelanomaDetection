@@ -63,25 +63,8 @@
     - <img src="Dropout_Trend.PNG" width="300" height="300">
 - But still the model predictions are lagging due to data imbalance. Hence we apply data augmentation technique.
     - With data augmentation dataset, we can see that the model predictions are much improved.
+    - - <img src="Augmented_Trend.PNG" width="300" height="300">
 
-- Model Estimate without Dropout layers & Image Augmentation:
-*![Book logo](/ridgetr2.PNG)
-*![Book logo](/ridgetst3.PNG)
-
-- Model Estimate with Dropout layers & Image Augmentation:
-- *![Book logo](/ridgetr1.PNG)
-*![Book logo](/ridgetst1.PNG)
-*![Book logo](/ridgetst2.PNG)
-
-- Model Estimate with Data Augmentation to overcome Data Imbalance:
-*![Book logo](/lassotr2.PNG)
-*![Book logo](/lassotst3.PNG)
-     
-- Lasso Train & Test Residuals:
-*![Book logo](/lassotr1.PNG)
-*![Book logo](/lassotst1.PNG)
-*![Book logo](/lassotst2.PNG)
-  
 ## Conclusion
    -   From the above models and prediction we can see that 
         - With data augmentation and proper selection of Network layers(dropouts Batch Normalization, Image Augmentation)
