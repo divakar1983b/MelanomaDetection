@@ -1,8 +1,7 @@
 # Melanoma Detection Model 
 > Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.  
 
-<img src="ISIC_0000417.jpg" width="324" height="324">
-*![Book logo](/ISIC_0000417.jpg ! width=100)
+<img src="ISIC_0000417.jpg" width="200" height="200">
 
 ## Table of Contents
 * [Objective](#Objective)
@@ -23,14 +22,23 @@
 
 ### The data set contains the following diseases:
 * Actinic keratosis
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Basal cell carcinoma
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Dermatofibroma
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Melanoma
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Nevus
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Pigmented benign keratosis
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Seborrheic keratosis
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Squamous cell carcinoma
+<img src="ISIC_0000417.jpg" width="200" height="200">
 * Vascular lesion
+<img src="ISIC_0000417.jpg" width="200" height="200">
 
 *![Book logo](/cont1.PNG)
 *![Book logo](/cont2.PNG)
