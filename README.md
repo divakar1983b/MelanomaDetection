@@ -27,10 +27,9 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## Objective
-- Model the price of house with the available independent variables
-- Model shall be used by managament to understand how prices vary with the variable.
-- Management can accordingly manipulate the strategy of the firm and concentrate on the areas which yields high returns.
-- Model will be a good way for management to understand the pricing dynamics of a new market.
+- To build a CNN based model which can accurately detect melanoma
+- Model shall be used by dermatologists to alert them about the presence of melanoma and reduce the manual effort needed in diagnosis.
+- 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Data_Exploration
