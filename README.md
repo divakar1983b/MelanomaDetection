@@ -54,7 +54,9 @@
 
 ## Model_Estimate
 - Initially the model is fit with training dataset (80%,20% - split) without Dropout layers and Image Augmentation.
-    - We can see that this model has very high training accuracy and less validation / test accuracy due to overfitting.
+    - We can see that this model has very high training accuracy (100%) due to overfitting
+    - The validation accuracy is less than 55% and test accuracy is only 35%.
+    - <img src="Training_Trend.PNG" width="300" height="300">
 - Then we apply the Dropout layer and Image Augmentation
     - We can see that model overfitting is much avoided and the gap between train & test accuracy minimises.
 - But still the model predictions are lagging due to data imbalance. Hence we apply data augmentation technique.
