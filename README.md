@@ -50,30 +50,26 @@
 - vascular lesion 		        : 6.42
 
 *![Book logo](/corr1.PNG)
-*![Book logo](/corr2.PNG)
-*![Book logo](/vif1.PNG)
-*![Book logo](/vif2.PNG)
-    
-- From the heatmap we can see many highly correlating features 
-- Such Correlating Features are procedurally analysed through VIF function and dropped one by one to optimum number.
+
 
 ## Model_Estimate
-- Once the Multicollinear features are removed to possible level using Correlation plot and vif, we move to LinearRegression model & RFE to eliminate further on the low priority features.
-- Since the number of features are large we will not be able to continue with LR model & RFE techiniques to achieve the most suitable model with minimal overfitting and multicollinearity.
-- Hence we switch to Ridge regresion model or Lasso regression model to easily find the best features and coefficients for our model.
-- For building the Housing price model, the data were classfied based on Zones and each zone were modelled separetly.
-    - The Models for RL, RM, RH and FV Zones were estimated separately and the outcomes are as follows
+- Initially the model is fit with training dataset (80%,20% - split) without Dropout layers and Image Augmentation.
+    - We can see that this model has very high training accuracy and less validation / test accuracy due to overfitting.
+- Then we apply the Dropout layer and Image Augmentation
+    - We can see that model overfitting is much avoided and the gap between train & test accuracy minimises.
+- But still the model predictions are lagging due to data imbalance. Hence we apply data augmentation technique.
+    - With data augmentation dataset, we can see that the model predictions are much improved.
 
-- Ridge Train & Test Trends:
+- Model Estimate without Dropout layers & Image Augmentation:
 *![Book logo](/ridgetr2.PNG)
 *![Book logo](/ridgetst3.PNG)
 
-- Ridge Train & Test Residuals:
+- Model Estimate with Dropout layers & Image Augmentation:
 - *![Book logo](/ridgetr1.PNG)
 *![Book logo](/ridgetst1.PNG)
 *![Book logo](/ridgetst2.PNG)
 
-- Lasso Train & Test Trends:
+- Model Estimate with Data Augmentation to overcome Data Imbalance:
 *![Book logo](/lassotr2.PNG)
 *![Book logo](/lassotst3.PNG)
      
