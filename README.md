@@ -22,23 +22,15 @@
 
 ### The data set contains the following diseases:
 * Actinic keratosis
-<img src="actinic.jpg" width="200" height="200">
 * Basal cell carcinoma
-<img src="besel.jpg" width="200" height="200">
 * Dermatofibroma
-<img src="derm.jpg" width="200" height="200">
 * Melanoma
-<img src="mela.jpg" width="200" height="200">
 * Nevus
-<img src="nevus.jpg" width="200" height="200">
 * Pigmented benign keratosis
-<img src="pig.jpg" width="200" height="200">
 * Seborrheic keratosis
-<img src="sebor.jpg" width="200" height="200">
 * Squamous cell carcinoma
-<img src="squam.jpg" width="200" height="200">
 * Vascular lesion
-<img src="vascular.jpg" width="200" height="200">
+<img src="skin_disease.PNG" width="200" height="200">
 
 ## Data Imbalance
 - To understand the multicollinearity amoung the different features, we shall plot the heat map between the variables, as well as use the variance_inflation_factor from statsmodels
