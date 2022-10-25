@@ -1,7 +1,7 @@
 # Melanoma Detection Model 
 > Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths.  
 > 
-*![Book logo](/pricing1.jpg)
+*![Book logo](/ISIC_0000417.jpg)
 
 ## Table of Contents
 * [Objective](#Objective)
