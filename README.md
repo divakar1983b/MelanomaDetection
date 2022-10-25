@@ -58,7 +58,9 @@
     - The validation accuracy is less than 55% and test accuracy is only 35%.
     - <img src="Training_Trend.PNG" width="300" height="300">
 - Then we apply the Dropout layer and Image Augmentation
-    - We can see that model overfitting is much avoided and the gap between train & test accuracy minimises.
+    - We can see that model overfitting is much avoided in the early loops but as the epoches increases the model starts overfitting.
+    - The validation accuracy is <55% and test accuracy is slightly improved to 41%.
+    - <img src="Dropout_Trend.PNG" width="300" height="300">
 - But still the model predictions are lagging due to data imbalance. Hence we apply data augmentation technique.
     - With data augmentation dataset, we can see that the model predictions are much improved.
 
