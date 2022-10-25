@@ -39,15 +39,15 @@
 **Class Domination:**
 >Four classes namely Pigmented Benign keratosis, Melanoma, Basal Cell carcinoma and Nevus occupy nearly 72.9% of the training dataset
 
->actinic keratosis 		    : 5.13
->basal cell carcinoma 		: 17.24
->dermatofibroma 		    : 4.30
->melanoma 			        : 19.64
->nevus 				        : 15.46
->pigmented benign keratosis : 20.65
->seborrheic keratosis 		: 3.24
->squamous cell carcinoma 	: 7.92
->vascular lesion 		    : 6.42
+- actinic keratosis 		    : 5.13
+- basal cell carcinoma 		    : 17.24
+- dermatofibroma 		        : 4.30
+- melanoma 			            : 19.64
+- nevus 				        : 15.46
+- pigmented benign keratosis    : 20.65
+- seborrheic keratosis 		    : 3.24
+- squamous cell carcinoma 	    : 7.92
+- vascular lesion 		        : 6.42
 
 *![Book logo](/corr1.PNG)
 *![Book logo](/corr2.PNG)
