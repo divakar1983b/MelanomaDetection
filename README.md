@@ -30,7 +30,7 @@
 * Seborrheic keratosis
 * Squamous cell carcinoma
 * Vascular lesion
-<img src="skin_disease.PNG" width="200" height="200">
+<img src="skin_disease.PNG" width="600" height="600">
 
 ## Data Imbalance
 - To understand the multicollinearity amoung the different features, we shall plot the heat map between the variables, as well as use the variance_inflation_factor from statsmodels
